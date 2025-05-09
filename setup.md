@@ -11,11 +11,10 @@ For this workshop you will need to:
 -  Install Anaconda following the instructions for your platform in their official
    [documentation website](https://docs.anaconda.com/anaconda/install/).
 -  Once Anaconda is installed, be sure to have the following libraries:
-     -    python=3
+     -    python<=3.12
      -    keras
      -    matplotlib
      -    tensorflow=2
-     -    tensorflow-gpu=2
      -    ipykernel
      -    jupyter
      -    scikit-learn
