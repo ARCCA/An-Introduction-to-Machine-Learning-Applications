@@ -130,7 +130,7 @@ Deep learning isn’t always the right tool for the job—sometimes there isn’
 
  - Probabilistic modelling is the application of the principles of statistics to data analysis.
    - **Naive Bayes** (Multinomial Naive Bayes Classifier) - ais a type of machine-learning classifier based on applying Bayes’ theoremi all naive Bayes classifiers assume that the value of a particular feature is independent of the value of any other feature (a strong, or “naive” assumption, which is where the name comes from), given the class variable. For example an email maybe considered to be spam if it contains a set of words, regardless of the order of these words. They require a small amount of training data to estimate the necessary parameters. It has a high bias since it ignores relationships between words but because it works well in practice, it is said to have low variance
-   - **Logistic regression** predicts weather something is true or false instead of predicting something continues like size (small vs big mice). Also, instead of fitting a line to the data, logistic regression fits an "S" shaped "logistic function". The curve goes from 0 to 1 and it means that the curve tells you the probability of the mouse being small based on its weight. Although logistic regression tells the probability that a mouse is big or not it is usually used for classification. For example if the probabiity of a mouse being small is less than 50% then it is classified as big. Logistic regression can work with continuous data as well as with discrete data. Logistic regression's ability to provide probabilities and classify new samples using continuous and discrete measurements makes it a popular machine learning method. One big difference between linear regression and logistic regression is how the line is fit to the data, with linear regression we fit the line using *least-squares* while with logistic regression we use *maximum likelihood*
+   - **Logistic regression** predicts whether something is true or false instead of predicting something continues like size (small vs big mice). Also, instead of fitting a line to the data, logistic regression fits an "S" shaped "logistic function". The curve goes from 0 to 1 and it means that the curve tells you the probability of the mouse being small based on its weight. Although logistic regression tells the probability that a mouse is big or not it is usually used for classification. For example if the probabiity of a mouse being small is less than 50% then it is classified as big. Logistic regression can work with continuous data as well as with discrete data. Logistic regression's ability to provide probabilities and classify new samples using continuous and discrete measurements makes it a popular machine learning method. One big difference between linear regression and logistic regression is how the line is fit to the data, with linear regression we fit the line using *least-squares* while with logistic regression we use *maximum likelihood*
  - Early neural networks
  - Kernel methods
  - Decision trees, random forests
@@ -288,7 +288,7 @@ commonly described and classified in broad categories based on:
     of labelled data. Most semisupervised learning algorithms are combinations of 
     unsupervised and supervised algorithms.
   - **Reinforcement Learning**
-- Weather the model can learn incrementally or requires reprocessing entire datasets.
+- Whether the model can learn incrementally or requires reprocessing entire datasets.
   There are two major categories:
   - **Batch learning**: This is also known as offline learning. In here the system is
     trained using all available data (which typically is both time and 
@@ -300,7 +300,7 @@ commonly described and classified in broad categories based on:
     of learning process is more useful where limited computational resources are 
     available (e.g. when a huge database cannot be entirely contained in the 
     machine's memory).
-- Weather the model is able to find new patterns in the data or relies on comparing 
+- Whether the model is able to find new patterns in the data or relies on comparing 
   new data points to known data points.
   - **Instance-based learning**: the system relies completely on the already learned
     examples and a similarity measure to generalize to new observed cases. Not the 
